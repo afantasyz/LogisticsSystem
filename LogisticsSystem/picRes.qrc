@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/picRes">
+        <file>image/instore.png</file>
+        <file>image/loginBack.png</file>
+        <file>image/orders.png</file>
+        <file>image/outstore.png</file>
+        <file>image/pakage.png</file>
+        <file>image/manager.png</file>
+        <file>image/user.png</file>
+        <file>image/worker.png</file>
+        <file>image/workerBack.png</file>
+        <file>image/managerBack.png</file>
+        <file>image/pakageBox.png</file>
+    </qresource>
+</RCC>

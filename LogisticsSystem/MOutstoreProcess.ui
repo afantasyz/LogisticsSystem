@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MOutstoreProcess</class>
+ <widget class="QDialog" name="MOutstoreProcess">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>发件操作</string>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>操作驿站ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_sid"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>驿站名称</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_sname"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>操作时间</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>771</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>快递单号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>快递公司</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>寄件地址</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>收件地址</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>寄件时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>操作</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delete">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>520</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除发件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_commit">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>520</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交发件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_cancel">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>520</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消操作</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>520</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新增包裹</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
